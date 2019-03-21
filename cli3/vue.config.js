@@ -8,6 +8,8 @@ module.exports = {
 
   assetsDir: 'static',
 
+  lintOnSave: false,
+
   devServer: {
     proxy: {
       '/api': {

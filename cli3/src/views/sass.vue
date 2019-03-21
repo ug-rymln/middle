@@ -1,6 +1,6 @@
 <template>
-  <div class="sass">
-    Commin in cli3
+  <div class="temp1">
+    <p class="sass">Commin in Sass</p>
   </div>
 </template>
 
@@ -16,7 +16,10 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  .sass {
-    color: $red_color;
+  .temp1 {
+    background-color: #dedede;
+    .sass {
+      color: $red_color;
+    }
   }
 </style>
