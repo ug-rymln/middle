@@ -1,4 +1,8 @@
-const firgures = require('figures')
-const log = console.log
+const figures = require('figures')
+const chalk = require('chalk')
+const logger = require('../lib/logger')
 
-log(firgures('check'))
+logger.log(chalk.green.italic(figures.tick + 'compiled success'))
+logger.log(chalk.red(figures.cross + 'failed'))
+logger.log(`[${figures.oneHalf}] ...`)
+logger.log(`${figures.arrowUp}`)
