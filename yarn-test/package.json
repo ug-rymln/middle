@@ -1,0 +1,7 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "figures": "^2.0.0"
+  }
+}
