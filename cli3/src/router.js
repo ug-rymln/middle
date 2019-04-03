@@ -6,6 +6,7 @@ Vue.use(Router)
 const Home = r => require.ensure([], () => r(require('./views/Home')))
 const About = r => require.ensure([], () => r(require('./views/About')))
 const Sass = r => require.ensure([], () => r(require('./views/sass')))
+const Svg = r => require.ensure([], () => r(require('./views/svg')))
 
 export default new Router({
   mode: 'hash',
@@ -27,6 +28,11 @@ export default new Router({
       path: '/sass',
       name: 'sass',
       component: Sass
+    },
+    {
+      path: '/svg',
+      name: 'svg',
+      component: Svg
     }
   ]
 })
